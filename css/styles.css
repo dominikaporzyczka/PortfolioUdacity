@@ -66,6 +66,50 @@ header {
 * PROJECTS CONTAINER
 *
 */
+
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+
+.projects-container-title {
+    width: 100%;
+    font-weight: 400;
+}
+
+.project {
+    width: 30%;
+    text-align: center;
+}
+
 .project img {
     width: 100%;
+}
+
+.project h3 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.project a {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 47%;
+    padding: 0.5em 1.5em;
+    border: 1px solid #02b3e4;
+    text-decoration: none;
+    background-color: #02b3e4;
+    color: #fff;
+    transition: background-color 0.3s;
+}
+
+.project a:first-of-type {
+    margin-right: 4%;
+}
+
+.project a:hover {
+    background-color: transparent;
+    color: #000;
 }
