@@ -1,0 +1,43 @@
+@media screen and (max-width: 1000px) {
+    .header-right {
+        padding: 0 20px;
+    }
+
+    .center-img {
+        height: 30%;
+    }
+
+    .projects-container {
+        margin: 0 20px;
+    }
+
+    .project {
+        margin-bottom: 50px;
+        width: 45%;
+    }
+
+    .project a {
+        padding: 1em 1.5em;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .header-left img {
+        width: 80px;
+        height: auto;
+    }
+
+    .header-right h1,
+    .projects-container-title,
+    .project h3 {
+        font-size: 1.3em;
+    }
+
+    .header-right p {
+        font-size: 0.8em;
+    }
+
+    .project {
+        width: 100%;
+    }
+}

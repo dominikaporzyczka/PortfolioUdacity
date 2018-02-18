@@ -43,7 +43,6 @@ header {
 }
 
 .header-right h1 {
-    line-height: 30px;
     margin-bottom: 5px;
 }
 
@@ -52,7 +51,6 @@ header {
 }
 
 .center-img {
-    position: relative; 
     background-image: url(../img/header.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
