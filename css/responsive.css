@@ -33,6 +33,12 @@
         font-size: 0.8em;
     }
 
+    .center-img {
+        background-attachment: scroll;
+        background-size: cover;
+        height: 30%;
+    }
+
     .project {
         width: 100%;
     }
