@@ -115,3 +115,27 @@ header {
     background-color: transparent;
     color: #000;
 }
+
+/*
+*
+* FOOTER
+*
+*/
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+footer p {
+    padding: 0;
+}
+
+.social-media a{
+    color: #02b3e4;
+    margin: 0 10px;
+    font-size: 2em;
+}

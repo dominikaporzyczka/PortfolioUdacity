@@ -43,3 +43,15 @@
         width: 100%;
     }
 }
+
+@media screen and (max-width: 450px) {
+    footer {
+        justify-content: center;
+    }
+    
+    footer p,
+    footer .social-media {
+        flex-basis: 100%;
+        text-align: center;
+    }
+}
